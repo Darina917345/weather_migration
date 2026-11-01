@@ -1,0 +1,7 @@
+SQLAlchemy>=2.0
+alembic>=1.13
+psycopg2-binary>=2.9   # драйвер PostgreSQL
+PyMySQL>=1.1           # драйвер MySQL / MariaDB
+cryptography>=42       # потрібен PyMySQL для нових схем автентифікації MySQL 8
+pandas>=2.0            # читання великого CSV шматками
+pytest>=8
